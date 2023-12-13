@@ -3,4 +3,4 @@ Bi-directional Adapter for Multi-modal Tracking
 
 
 
-release soooooooooon
+release soon
