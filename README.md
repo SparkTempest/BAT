@@ -1,5 +1,5 @@
-# Bi-directional Adapter for Multimodal Tracking [AAAI2024]
-The official implementation for the paper [**Bi-directional Adapter for Multimodal Tracking**](https://arxiv.org/abs/2312.10611).
+# Bi-directional Adapter for Multimodal Tracking
+The official implementation for the AAAI2024 paper [**Bi-directional Adapter for Multimodal Tracking**](https://arxiv.org/abs/2312.10611).
 
 
 
