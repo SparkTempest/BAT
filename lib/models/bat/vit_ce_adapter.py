@@ -89,16 +89,14 @@ class VisionTransformerCE(VisionTransformer):
         # self.pos_embed = nn.Parameter(torch.zeros(1, num_patches + self.num_tokens, embed_dim)) # it's redundant
         self.pos_drop = nn.Dropout(p=drop_rate)
 
-        '''
-        adapter parameters
-        '''
+        
         H, W = search_size
         new_P_H, new_P_W = H // new_patch_size, W // new_patch_size
         self.num_patches_search=new_P_H * new_P_W
         H, W = template_size
         new_P_H, new_P_W = H // new_patch_size, W // new_patch_size
         self.num_patches_template=new_P_H * new_P_W
-        """add here, no need use backbone.finetune_track """     #??????????????? why you do this
+        """add here, no need use backbone.finetune_track """     #
         self.pos_embed_z = nn.Parameter(torch.zeros(1, self.num_patches_template, embed_dim))
         self.pos_embed_x = nn.Parameter(torch.zeros(1, self.num_patches_search, embed_dim))
 
@@ -131,16 +129,6 @@ class VisionTransformerCE(VisionTransformer):
         self.blocks = nn.Sequential(*blocks)       
         self.norm = norm_layer(embed_dim)
         self.init_weights(weight_init)
-
-
-        """
-        self.adap_headcat = nn.Sequential(
-            nn.Linear(embed_dim * 2, embed_dim),
-            nn.LayerNorm(embed_dim),
-            nn.GELU()
-        )
-        """
-
 
        
 
