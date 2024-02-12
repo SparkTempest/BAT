@@ -52,6 +52,7 @@ class VisionTransformerCE(VisionTransformer):
             embed_layer (nn.Module): patch embedding layer
             norm_layer: (nn.Module): normalization layer
             weight_init: (str): weight init scheme
+            
         """
         # super().__init__()
         super().__init__()
