@@ -8,6 +8,9 @@ The official implementation for the AAAI2024 paper [**Bi-directional Adapter for
 [Models & Raw Results](https://pan.baidu.com/s/1Fcv2BX2HTb8M8u2IRJ75aQ?pwd=ak66)
 (Baidu Driver: ak66)
 
+[Models & Raw Results](https://drive.google.com/drive/folders/1l8j8Ns8dGyrKrFrmetHPdqKPO0wNrZ1n?usp=sharing)
+(Google Drive)
+
 
 ## Usage
 ### Installation
@@ -49,7 +52,7 @@ You can also modify paths by these two files:
 ```
 
 ### Training
-Dowmload the pretrained [foundation model](https://pan.baidu.com/s/1JX7xUlr-XutcsDsOeATU1A?pwd=4lvo) (OSTrack) (Baidu Driver: 4lvo)
+Dowmload the pretrained [foundation model](https://pan.baidu.com/s/1JX7xUlr-XutcsDsOeATU1A?pwd=4lvo) (OSTrack) (Baidu Driver: 4lvo) / [foundation model](https://drive.google.com/file/d/1WSkrdJu3OEBekoRz8qnDpnvEXhdr7Oec/view?usp=sharing) (Google Drive)
 and put it under ./pretrained/.
 ```
 bash train_bat.sh
