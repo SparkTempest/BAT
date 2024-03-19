@@ -81,12 +81,15 @@ We refer you to use [VisEvent_SOT_Benchmark](https://github.com/wangxiao5791509/
 
 ## Citation
 Please cite our work if you think it is useful for your research.
+
+```bibtex
 @inproceedings{BAT,
   title={Bi-directional Adapter for Multimodal Tracking},
   author={Bing Cao, Junliang Guo, Pengfei Zhu, Qinghua Hu},
   booktitle={AAAI Conference on Artificial Intelligence},
   year={2024}
 }
+```
 
 
 
