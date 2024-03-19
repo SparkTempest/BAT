@@ -79,6 +79,18 @@ bash eval_rgbe.sh
 ```
 We refer you to use [VisEvent_SOT_Benchmark](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark) for evaluation.
 
+## Citation
+Please cite our work if you think it is useful for your research.
+@inproceedings{BAT,
+  title={Bi-directional Adapter for Multimodal Tracking},
+  author={Bing Cao, Junliang Guo, Pengfei Zhu, Qinghua Hu},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2024}
+}
+
+
+
+
 
 ## Acknowledgment
 - This repo is based on [ViPT](https://github.com/jiawen-zhu/ViPT) which is an exellent work, helps us to quickly implement our ideas.
